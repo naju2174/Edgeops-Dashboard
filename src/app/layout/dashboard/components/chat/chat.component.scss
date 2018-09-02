@@ -1,0 +1,45 @@
+.card {
+    background: #fff;
+    margin-bottom: 30px;
+    transition: .5s;
+    border: 0;
+    border-radius: .55rem;
+    position: relative;
+    // width: 450px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+}
+.card .body {
+    font-size: 14px;
+    color: #424242;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.card .header {
+    background-color: #fbfbfc;
+    color: #424242;
+    padding: 15px;
+    position: relative;
+    box-shadow: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+.card .header h2 {
+    font-size: 15px;
+    color: #757575;
+    position: relative;
+    margin-bottom: 0px !important;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+table th {
+    font-size: 14px;
+    font-weight: 500;
+}
+table td {
+    font-size: 14px;
+    font-weight: 300;
+}

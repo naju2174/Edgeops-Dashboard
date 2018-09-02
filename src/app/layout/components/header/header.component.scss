@@ -1,0 +1,53 @@
+$topnav-background-color: #fff;
+:host {
+    .navbar {
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        background-color: $topnav-background-color;
+        .navbar-brand {
+            color: #fff;
+            position: relative;
+            align-items: center;
+            display: flex;
+            float: left;
+            height: 60px;
+            text-align: center;
+            font-weight: 300;
+            font-size: .5ems !important;
+            width: 235px;
+            padding: 10px;
+            background-color: #20232c;
+        }
+        .nav-item > a {
+            color: #999;
+            &:hover {
+                color: #3c4043;
+            }
+        }
+    }
+    .messages {
+        width: 300px;
+        .media {
+            border-bottom: 1px solid #ddd;
+            padding: 5px 10px;
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+        .media-body {
+            h5 {
+                font-size: 13px;
+                font-weight: 600;
+            }
+            .small {
+                margin: 0;
+            }
+            .last {
+                font-size: 12px;
+                margin: 0;
+            }
+        }
+    }
+}
